@@ -15,5 +15,5 @@ cd /app
 bundle exec sidekiq \
   -q critical \
   -q default \
-  -q low \
-  -q mongo
+  -q mongo \
+  -q low
